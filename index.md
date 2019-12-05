@@ -1,37 +1,191 @@
-## Welcome to GitHub Pages
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Solicitud de Carga de Crédito</title>
+<style type="text/css">
+body{
+	background:#ffffdf;
+}
+.form-style-10{
+	max-width:450px;
+	padding:30px;
+	margin:40px auto;
+	background: #FFF;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.form-style-10 .inner-wrap{
+	padding: 30px;
+	background: #F8F8F8;
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+.form-style-10 h1{
+	background: #76BA27;
+	padding: 20px 30px 15px 30px;
+	margin: -30px -30px 30px -30px;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #76BA27;
+}
+.form-style-10 h1 > span{
+	display: block;
+	margin-top: 2px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-10 label{
+	display: block;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #76BA27;
+	margin-bottom: 15px;
+}
+.form-style-10 input[type="text"],
+.form-style-10 input[type="date"],
+.form-style-10 input[type="datetime"],
+.form-style-10 input[type="email"],
+.form-style-10 input[type="number"],
+.form-style-10 input[type="search"],
+.form-style-10 input[type="time"],
+.form-style-10 input[type="url"],
+.form-style-10 input[type="password"],
+.form-style-10 textarea,
+.form-style-10 select {
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 8px;
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border: 2px solid #fff;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
 
-You can use the [editor on GitHub](https://github.com/jlgarvia/jlgarvia.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+.form-style-10 .section{
+	font: normal 20px 'Bitter', serif;
+	color: #76BA27;
+	margin-bottom: 5px;
+}
+.form-style-10 .section span {
+	background: #76BA27;
+	padding: 5px 10px 5px 10px;
+	position: absolute;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 4px solid #fff;
+	font-size: 14px;
+	margin-left: -45px;
+	color: #fff;
+	margin-top: -3px;
+}
+.form-style-10 input[type="button"], 
+.form-style-10 input[type="submit"]{
+	background: #76BA27;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #76BA27;
+	font-size: 15px;
+}
+.form-style-10 input[type="button"]:hover, 
+.form-style-10 input[type="submit"]:hover{
+	background: #76BA27;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+.form-style-10 .privacy-policy{
+	float: right;
+	width: 250px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #4D4D4D;
+	margin-top: 10px;
+	text-align: right;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</style>
+</head>
 
-### Markdown
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class="form-style-10">
+<h1>Carga tu crédito en línea<span>Carga el credito y paga en línea</span></h1>
 
-```markdown
-Syntax highlighted code block
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 
-# Header 1
-## Header 2
-### Header 3
+<input type=hidden name="orgid" value="00Df4000002ayXs">
+<input type=hidden name="retURL" value="http://">
+<input type=hidden name="recordType" id="recordType" value="012f4000000SsIn">
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+    <div class="section"><span>1</span>Opciones de pago</div>
+	    <div class="inner-wrap">
+	
+	
+ <label>Forma de Pago:<select  id="00Nf400000UlIr4" name="00Nf400000UlIr4" title="Forma de Pago"><option value="">--Ninguno--</option><option value="Pago con tarjeta de crédito">Pago con tarjeta de crédito</option>
+<option value="Bancos habilitados o Puntos Externo">Bancos habilitados o Puntos Externo</option>
+<option value="Pago directo en caja">Pago directo en caja</option>
+</select><br>
+</label>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+ <label>
+Abono a Cargar:<input  id="00Nf400000UlIqz" name="00Nf400000UlIqz" size="20" type="text" /><br>
+</label>
+</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    <div class="section"><span>2</span>Datos de solicitante</div>
+	    <div class="inner-wrap">
 
-### Jekyll Themes
+<label for="name">Nombre del contacto</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jlgarvia/jlgarvia.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<label for="company">Empresa</label><input  id="company" maxlength="80" name="company" size="20" type="text" /><br>
 
-### Support or Contact
+<label for="email">Correo electrónico</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<label for="phone">Teléfono</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<label> Nombre / Razón Social:<input  id="00Nf400000UlIrE" maxlength="100" name="00Nf400000UlIrE" size="20" type="text" /><br></label>
+
+<label> Numero de Nit:<input  id="00Nf400000UlIrJ" maxlength="50" name="00Nf400000UlIrJ" size="20" type="text" /><br></label>
+    </div>
+	
+    <div class="section"><span>3</span>Referencias o indicaciones</div>
+	    <div class="inner-wrap">
+
+<label for="description">Comentarios</label><textarea name="description"></textarea><br>
+
+
+    </div>
+
+<input type="submit" name="submit">
+
+</form>
+</div>
+
+</body>
+</html>
